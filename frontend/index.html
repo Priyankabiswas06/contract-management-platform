@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contract Management Platform</title>
+  <style>
+    body { font-family: Arial; margin: 20px; }
+    section { border: 1px solid #ccc; padding: 15px; margin-bottom: 20px; }
+    button { margin: 5px; }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { border: 1px solid #ccc; padding: 8px; text-align: center; }
+  </style>
+</head>
+<body>
+
+<h1>Contract Management Platform</h1>
+
+<section>
+  <h2>Create Blueprint</h2>
+  <input id="bpName" placeholder="Blueprint Name" />
+  <button onclick="createBlueprint()">Create</button>
+</section>
+
+<section>
+  <h2>Create Contract</h2>
+  <input id="contractName" placeholder="Contract Name" />
+  <select id="blueprintSelect"></select>
+  <button onclick="createContract()">Create</button>
+</section>
+
+<section>
+  <h2>Contracts Dashboard</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Blueprint</th>
+        <th>Status</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody id="contractsTable"></tbody>
+  </table>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
