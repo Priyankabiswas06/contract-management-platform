@@ -1,88 +1,16 @@
-\# Contract Management Platform
+# React + Vite
 
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
+Currently, two official plugins are available:
 
-This project is a simple full-stack Contract Management Platform built as part of an assessment.  
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-It demonstrates how contracts can be created using predefined blueprints and then moved through a controlled lifecycle.
+## React Compiler
 
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
+## Expanding the ESLint configuration
 
-The focus of this project is \*\*workflow clarity, backend logic, and frontend–backend integration\*\*, not UI design.
-
-
-
----
-
-
-
-\## What This Project Does
-
-
-
-The platform allows users to:
-
-
-
-\- Create \*\*Blueprints\*\* (templates for contracts)
-
-\- Create \*\*Contracts\*\* based on those blueprints
-
-\- Manage contracts through a fixed lifecycle:
-
-&nbsp; - CREATED → APPROVED → SENT → SIGNED → LOCKED
-
-\- View all contracts in a dashboard
-
-\- Perform lifecycle actions using buttons
-
-
-
-Lifecycle rules are enforced on the backend.
-
-
-
----
-
-
-
-\## Tech Stack Used
-
-
-
-\### Backend
-
-\- Node.js
-
-\- Express.js
-
-\- REST APIs
-
-\- In-memory data storage
-
-
-
-\### Frontend
-
-\- HTML
-
-\- CSS
-
-\- JavaScript 
-
-
-
-Authentication is optional and mocked as allowed by the requirements.
-
-
-
----
-
-
-
-\## Project Structure
-
-
-
-
-
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
