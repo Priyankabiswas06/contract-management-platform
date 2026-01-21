@@ -1,16 +1,33 @@
-# React + Vite
+## 🔗 Live Deployment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Frontend :  
+https://priyankabiswas06.github.io/contract-management-platform/
 
-Currently, two official plugins are available:
+# Contract Management Platform
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project is a platform, for managing contracts. It is a stack **Contract Management Platform** that I built for a technical test.
 
-## React Compiler
+This system shows us how we can make contracts using templates that are already set up. We can then move these contracts through stages. The rules, for this process are enforced by the system in the background so everything stays organized and follows the rules.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+> **Note:** I thought about using Docker to make things better. I did not have the right setup for it. My application works on our computers and we use GitHub Pages to make the frontend available, to everyone.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+I think Backend APIs are supposed to run on your computer. The Backend APIs are meant to be used.
+
+---
+
+## 📌 Features
+
+- Create **Blueprints** (contract templates)
+
+- Create **Contracts** based on blueprints
+
+- Manage contract lifecycle using actions
+
+- View contracts in a dashboard
+
+- Backend-enforced lifecycle rules
+
+
+
